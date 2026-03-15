@@ -47,6 +47,12 @@ The pipeline automatically installs dependencies and runs tests whenever code is
 \## Run the App
 
 ```bash
+## Run with Docker
+
+Build the image:
+
+```bash
+docker build -t matrix-registration-cicd .
 
 python app/matrix\_app.py
 
