@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 
-from app.matrix_app import (
+from matrix_app import (
     validate_phone,
     validate_zip,
     create_matrix,
